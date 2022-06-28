@@ -116,6 +116,7 @@ body{
     display: flex;
     justify-content : center;
     color: rgb(147, 94, 104);
+    flex-shrink : 0
 }
 
 .blank{
