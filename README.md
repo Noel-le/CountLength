@@ -1,2 +1,2 @@
 # CountLength
-for check google adsense
+for checking google adsense
