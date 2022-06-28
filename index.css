@@ -92,7 +92,7 @@ body{
     word-break: break-all;
     resize: none;
     font-family: 'GangwonEdu_OTFBoldA';
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .textArea::-webkit-scrollbar{
@@ -112,7 +112,7 @@ body{
 
 .result{
     font-family: 'GangwonEdu_OTFBoldA';
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content : center;
     color: rgb(147, 94, 104);
