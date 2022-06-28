@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <title>글자수 세기</title>
+</head>
+<body>
+    <div class="title">글자수세기</div>
+    <div class="main">
+        <div class="inputArea">
+            <textarea class="textArea" cols="45" rows="20" placeholder="글자를 입력해 주세요" onkeydown="calc()" onkeyup="calc()" onkeypress="calc()"></textarea>
+        </div>
+    </div>
+    <div class="resultArea">
+        <div class="result">공백포함 : 
+            <input type="number" class="blank" value="0" readonly onfocus="this.blur()">
+        </div>
+        <div class="result">공백제거 : 
+            <input type="number" class="noneblank" value="0" readonly onfocus="this.blur()">
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

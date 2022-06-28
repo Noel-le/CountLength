@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: url('./bg.png');
+    background-size: 100%;
+    height: 100vh;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 33px;
+    color: rgb(147, 94, 104);
+    vertical-align:middle;
+    
+}
+
+.main{
+    display: flex;
+    justify-content : center;
+}
+
+.textArea{
+    display: block;
+    overflow-y: scroll;
+    width: 100%;
+    height: 380px;
+    border: none;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    word-break: break-all;
+    resize: none;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 20px;
+}
+
+.textArea::-webkit-scrollbar{
+    display: none;  
+}
+
+.textArea:focus{
+    outline: none;
+}
+
+.resultArea{
+    margin: 30px;    
+    font-family: 'GangwonEdu_OTFBoldA';
+    display: flex;
+    justify-content : center;
+}
+
+.result{
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 20px;
+    display: flex;
+    justify-content : center;
+    color: rgb(147, 94, 104);
+}
+
+.blank{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border:0px;
+    background: transparent;
+    color: rgb(242, 112, 134); 
+}
+
+.noneblank{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: none;
+    border:0px;
+    background: transparent;
+    color: rgb(242, 112, 134);
+}
